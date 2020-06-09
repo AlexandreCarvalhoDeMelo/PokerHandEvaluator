@@ -1,0 +1,22 @@
+#! /usr/bin/env php
+
+<?php
+
+require 'vendor/autoload.php';
+
+$file = $argv;
+
+if(empty($file[1])) {
+    die('Please inform a file'.PHP_EOL);
+}
+
+$hands = file_get_contents($file[1]);
+
+$sortedHands = DrPoker\Hand::evaluate($hands);
+
+echo 'Sorted result:'.PHP_EOL;
+
+array_walk($sortedHands, (function ($sortedData) {
+    echo $sortedData[2].PHP_EOL;
+}));
+

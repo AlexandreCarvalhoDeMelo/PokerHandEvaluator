@@ -1,0 +1,19 @@
+{
+  "name": "ale/poker",
+  "description": "Poker Rule Engine",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "DrPoker\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alexandre Melo",
+      "email": "alexandre.carvalho.melo@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  }
+}
