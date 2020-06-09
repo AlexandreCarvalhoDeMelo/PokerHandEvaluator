@@ -17,7 +17,7 @@ Run
 ./validator hands.txt
 ```
 
-###Sample output
+## Sample output
 ```
 Sorted result:
 A♥ K♥ Q♥ J♥ 10♥
@@ -35,5 +35,5 @@ A♦ 9♠ 7♠ 5♠ 3♦
 
 ```
 
-####note
+## note
 Quite fun test to do : )
