@@ -4,7 +4,7 @@ Requirements:
 * PHP 7.2
 * PHPUnit (dev)
 
-### Installation
+##  Installation
 
 Just run composer install and give the file permissions:
 ```
